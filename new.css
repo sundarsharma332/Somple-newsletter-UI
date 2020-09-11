@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rebeccapurple;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.container {
+    height: 600px;
+    width: 350px;
+    background:#fff;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.upper {
+    background-color: #F86EAD;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.upper .close__btn {
+    position: absolute;
+    font-size: 18px;
+    float: right;
+    top: -10px;
+    right: 0px;
+    padding: 1rem;
+    /* visibility: hidden; */
+}
+
+.upper .upper__text {
+    padding: 1.9rem;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    opacity: 0.4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.middle .upper__middleText{
+    color: #fff;
+    text-align: center;
+    background-color:#F86EAD;
+}
+.middle .lower__middleText{
+    color: #fff;
+    text-align: center;
+    background-color: #F86EAD;
+    margin-top: -26px;
+}
+.lower {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.lower .input__text {
+    height: 30px;
+    width: 100%;
+    padding: 2rem;
+}
+.lower .input__text input{
+    height: 1.4rem;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 5px;
+}
+.lower .input__text input:focus{
+    outline-color: #F380C8;
+
+}
+.lower .input__text input::placeholder{
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F380C8;
+}
+.lower .btn {
+    height: 50px;
+    margin: 20px;
+    width: 70%;
+    border-radius: 4px;
+    color:#fff;
+    background: #F380C8;
+    border: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.lower .subscribe__text {
+    padding: 1rem;
+    /* background-color: #111; */
+    font-size: 0.8rem;
+    opacity: 0.4;
+    color: #111;
+}
+.lower .social {
+    /* background-color: red; */
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1rem;
+    margin-left: 20px;
+
+}
+.fa {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    box-sizing: border-box;
+    border-radius: 40%;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+    /* background: #dd4b39; */
+    color: red
+ }
+.fa-instagram {
+    /* background: #125688; */
+    color: brown
+ }
+ .fa-github {
+    /* background: #202124; */
+    color: darkslategrey
+ }
+  
+  
+
+
+
+
+
+
